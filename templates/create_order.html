@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Libre Barcode 39' rel='stylesheet'>
+    <link rel="stylesheet" href="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\create_order.css">
+    <title>Create Order</title>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\my-image3.png" alt="">
+        </div>
+        <div class="welcome">
+            <h1 id="welcome">INVENTORY</h1>
+        </div>
+        <div class="delhi_logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\delhilogo-removebg-preview.png" alt="">
+        </div>
+    </div>
+        <div class="taskbar">
+            <a id="about_us" href="home.html">Home</a>
+            <p id="bar">|</p>
+            <a id="our_client" href="OPD.html">OPD Booking</a>
+            <p id="bar">|</p>
+            <a id="our_service" href="admission.html">Patient Admission</a>
+            <p id="bar">|</p>
+            <a id="service_req" href="bed_availability.html">Bed Availability</a>
+            <p id="bar">|</p>
+            <a id="contact_us" href="inventory.html">Inventory</a>
+            <p id="bar">|</p>
+            <a id="login" href="index.html">Logout</a>
+        </div>
+        <div class="inner">
+            <div class="inner_top_bar">
+                Pharmacy No. - <select>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <a href="create_order.html"><button>Create Order</button></a>
+                <a href="stock_entry.html"><button>Stock Entry</button></a>
+                <a href="inventory.html"><button>Stock Management</button></a>
+                <a href="expired_stock.html"><button>Expired Stock</button></a>
+            </div>
+            <div class="item">
+                <div class="item_search">
+                    Item Search - <select>
+                        <option>Search Medicine</option>
+                    </select>
+                </div>
+                <div class="barcode">
+                    <p>1234567890</p>
+                </div>
+            </div>
+            
+            <div class="inner_title_bar">
+                <p>CREATE ORDER</p>
+            </div>
+        </div>
+        <table id="stock_mgt">
+            <tr id="title">
+                <th>SR No.</th>
+                <th>Company Name</th>
+                <th>Item Name</th>
+                <th>Item ID</th>
+                <th>Min Qty to BUY</th>
+                <th>Max Qty to BUY</th>
+                <th>Stock QTY</th>
+                <th>Order QTY</th>
+                <th>MRP</th>
+                <th>Total Amount</th>
+                <th>Distributor</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Flamingo Co.</th>
+                <th>Calpol</th>
+                <th>111111</th>
+                <th><input name="minqty" placeholder="Min Qty"></th>
+                <th><input name="maxqty" placeholder="Max Qty"></th>
+                <th>5</th>
+                <th><input type="number" value="med1"></th>
+                <th<input type="number" min="10" max="30"></th>
+                <th>20.00</th>
+                <th>400.00</th>
+                <th>Flamingo Co. Delhi pvt. ltd.</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Flamingo Co.</th>
+                <th>Zantec</th>
+                <th>222222</th>
+                <th><input name="minqty" placeholder="Min Qty"></th>
+                <th><input name="maxqty" placeholder="Max Qty"></th>
+                <th>7</th>
+                <th><input type="number"></th>
+                <th<input type="number" min="10" max="30"></th>
+                <th>15.00</th>
+                <th>300.00</th>
+                <th>Flamingo Co. Delhi pvt. ltd.</th>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button>Add Item</button>
+            <button>Delete Item</button>
+            <button>Order</button>
+            <button>Cancel</button>
+        </div>
+        
+    <footer class="bottom_bar">
+        <p>&copy; 2024 Cure Plus. All rights reserved.</p>
+    </footer>

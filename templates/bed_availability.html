@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\bed_availability.css">
+    <title>Bed Availability</title>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\my-image3.png" alt="">
+        </div>
+        <div class="welcome">
+            <h1 id="welcome">BED AVAILABILITY</h1>
+        </div>
+        <div class="delhi_logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\delhilogo-removebg-preview.png" alt="">
+        </div>
+    </div>
+        <div class="taskbar">
+            <a id="about_us" href="home.html">Home</a>
+            <p id="bar">|</p>
+            <a id="our_client" href="OPD.html">OPD Booking</a>
+            <p id="bar">|</p>
+            <a id="our_service" href="admission.html">Patient Admission</a>
+            <p id="bar">|</p>
+            <a id="service_req" href="bed_availability.html">Bed Availability</a>
+            <p id="bar">|</p>
+            <a id="contact_us" href="inventory.html">Inventory</a>
+            <p id="bar">|</p>
+            <a id="login" href="index.html">Logout</a>
+        </div>
+
+        <div class="search_bar">
+            <p><u><b>Filter : </b></u></p>
+            Date & Time of Requirement - <input type="datetime-local">
+            Bed Name - <input placeholder="Enter">
+            Bed Type - <select>
+                <option>AC</option>
+                <option>NON-AC</option>
+            </select>
+            Price - <input type="range" min=500.00 max=15000.00 maxlength=2>
+            <button>Search</button>
+        </div>
+
+        <table>
+            <tr id="title">
+                <th>Hospital Name</th>
+                <th>Bed Category</th>
+                <th>Bed Cost (per Day)</th>
+                <th>Estimated Number of Days</th>
+                <th>Total Amount(Estimated)</th>
+                <th>Total Beds Available</th>
+                <th>Booking</th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>A - AC Double Bed</th>
+                <th>7000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>76</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>A - Luxury Cabin</th>
+                <th>10000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>58</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>A - Day Care</th>
+                <th>2000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>86</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>A - Deluxe AC</th>
+                <th>15000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>28</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>A - General Female</th>
+                <th>3000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>124</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>A - General Male</th>
+                <th>3000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>164</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Deluxe Non-AC</th>
+                <th>7000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>44</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Female Ward</th>
+                <th>1000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>180</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Female - Day Care AC</th>
+                <th>7000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>28</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Female Isolation</th>
+                <th>9000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>14</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Female Ward Non-AC</th>
+                <th>500.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>100</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Male Ward</th>
+                <th>1500.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>76</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Male Ward Non-AC</th>
+                <th>750.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>86</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Male Isolation</th>
+                <th>9000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>18</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Luxury Cabin Non-AC</th>
+                <th>7000.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>80</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+            <tr>
+                <th>Apollo Gleneagles</th>
+                <th>Emergency Beds</th>
+                <th>500.00</th>
+                <th><input type="number"></th>
+                <th></th>
+                <th>20</th>
+                <th><a href="admission.html">Book Now</a></th>
+            </tr>
+        </table>
+    <footer class="bottom_bar">
+        <p>&copy; 2024 Cure Plus. All rights reserved.</p>
+    </footer>

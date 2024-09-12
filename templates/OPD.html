@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\OPD.css">
+    <title>OPD Booking</title>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\my-image3.png" alt="">
+        </div>
+        <div class="welcome">
+            <h1 id="welcome">OPD BOOKING</h1>
+        </div>
+        <div class="delhi_logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\delhilogo-removebg-preview.png" alt="">
+        </div>
+    </div>
+        <div class="taskbar">
+            <a id="about_us" href="home.html">Home</a>
+            <p id="bar">|</p>
+            <a id="our_client" href="OPD.html">OPD Booking</a>
+            <p id="bar">|</p>
+            <a id="our_service" href="admission.html">Patient Admission</a>
+            <p id="bar">|</p>
+            <a id="service_req" href="bed_availability.html">Bed Availability</a>
+            <p id="bar">|</p>
+            <a id="contact_us" href="inventory.html">Inventory</a>
+            <p id="bar">|</p>
+            <a id="login" href="index.html">Logout</a>
+        </div>
+
+        <div class="doctor_search">
+            Location -<select>
+                <option value="">Select a location</option>
+                  <option value="Central Delhi">Central Delhi</option>
+                  <option value="North Delhi">North Delhi</option>
+                  <option value="South Delhi">South Delhi</option>
+                  <option value="East Delhi">East Delhi</option>
+                  <option value="North East Delhi">North East Delhi</option>
+                  <option value="South West Delhi">South West Delhi</option>
+                  <option value="New Delhi">New Delhi</option>
+                  <option value="West Delhi">West Delhi</option>
+                  <option value="North West Delhi">North West Delhi</option>
+                  <option value="Shahdara">Shahdara</option>
+                  <option value="South Eest Delhi">South Eest Delhi</option>
+                  </select>
+
+            Nearby Hospital - <select>
+                      <option value="">hospital</option>
+                      <option value="Acharya Shree Bhikshu Hospital">Acharya Shree Bhikshu Hospital</option>
+                      <option value="Ambedkar Nagar Hospital">Ambedkar Nagar Hospital</option>
+                      <option value="Aruna Asaf Ali Govt. Hospital">Aruna Asaf Ali Govt. Hospital</option>
+                      <option value="Attar Sain Jain Hospital">Attar Sain Jain Hospital</option>
+                      <option value="Ayurvedic & Unani Tibbia College & Hospital">Ayurvedic & Unani Tibbia College & Hospital</option>
+                      <option value="Babu Jagjivan Ram Memorial Hospital">Babu Jagjivan Ram Memorial Hospital</option>
+                      <option value="Bhagwan Mahavir Hospital">Bhagwan Mahavir Hospital</option>
+                      <option value="B R Sur Homeopathic Medical College & Hospital">B R Sur Homeopathic Medical College & Hospital</option>
+                      <option value="Burari Hospital">Burari Hospital</option>
+                      <option value="Deen Dayal Upadhyay Hospital">Deen Dayal Upadhyay Hospital</option>
+                      <option value="Deep Chand Bandhu Hospital">Deep Chand Bandhu Hospital</option>
+                      <option value="Dr. Baba Saheb Ambedkar Hospital">Dr. Baba Saheb Ambedkar Hospital</option>
+                      <option value="Dr. Hedgewar Arogya Sansthan">Dr. Hedgewar Arogya Sansthan</option>
+                      <option value="Dr. N.C. Joshi Memorial Hospital">Dr. N.C. Joshi Memorial Hospital</option>
+                      <option value="G.B. Pant Hospital (GIPMER)">G.B. Pant Hospital (GIPMER)</option>
+                      <option value="Guru Govind Singh Govt. Hospital">Guru Govind Singh Govt. Hospital</option>
+                      <option value="Guru Nanak Eye Center">Guru Nanak Eye Center</option>
+                      <option value="Guru Teg Bahadur Hospital (GTBH)">Guru Teg Bahadur Hospital (GTBH)</option>
+                      <option value="Indira Gandhi Hospital">Indira Gandhi Hospital</option>
+                      <option value="Jag Pravesh Chandra Hospital">Jag Pravesh Chandra Hospital</option>
+                      <option value="Lal Bahadur Shastri Hospital">Lal Bahadur Shastri Hospital</option>
+                      <option value="Lok Nayak Hospital">Lok Nayak Hospital</option>
+                      <option value="Maharishi Valmiki Hospital">Maharishi Valmiki Hospital</option>
+                      <option value="Nehru Homeopathic Medical College and Hospital">Nehru Homeopathic Medical College and Hospital</option>
+                      <option value="Pt. Madan Mohan Malviya Hospital">Pt. Madan Mohan Malviya Hospital</option>
+                      <option value="Rao Tula Ram Memorial Hospital">Rao Tula Ram Memorial Hospital</option>
+                      <option value="Sardar Vallabh Bhai Patel Hospital">Sardar Vallabh Bhai Patel Hospital</option>
+                      <option value="Satyawadi Raja Harish Chandra Hospital">Satyawadi Raja Harish Chandra Hospital</option>
+                      <option value="Sanjay Gandhi Memorial Hospital">Sanjay Gandhi Memorial Hospital</option>
+                      <option value="Shri Dada Dev Matri Avum Shishu Chikitsalaya">Shri Dada Dev Matri Avum Shishu Chikitsalaya</option>
+            </select>
+            Name -<select>
+                <option>Doctor 1</option>
+                <option>Doctor 2</option>
+            </select>
+            Specialization -<select>
+                <option>oncologist</option>
+                <option>psychiatrist                  </option>
+                <option>dermatologist                 </option>   
+                <option>obstetrician-gynecologist     </option> 
+                <option>pediatrician                  </option>
+                <option>endocrinologist               </option>  
+                <option>family medicine               </option>   
+                <option>emergency medicine            </option>      
+                <option>ophthalmology                 </option>        
+                <option>hematologist                  </option>        
+                <option>geriatrician                  </option>        
+                <option>pathology                     </option>       
+                <option>infectious disease specialist </option>        
+                <option>cardiologist                  </option>            
+                <option>neurologist                   </option>             
+                <option>radiologist                   </option>                 
+                <option>internal medicine             </option>               
+                <option>nephrologist                  </option>                
+                <option>otolaryngologist              </option>           
+                <option>immunologist                  </option>           
+                <option>surgeon                       </option>             
+                <option>anesthesiology                </option>            
+                <option>anesthesiologist</option>
+            </select>
+        </div>
+        <div class="boxes">
+            <div class="doctor_box">
+                <div class="image_box1"></div>
+                <h4>Dr. Mohan Singh</h4>
+                <p>Speciality - Gynacologist</p>
+                <p>Mobile No. - 6290166816</p>
+                <p>Email ID - mohan.singh@gmail.com</p>
+                <a href="book.html">Book Now</a>
+            </div>
+            <div class="doctor_box">
+                <div class="image_box2"></div>
+                <h4>Dr. Sandeep Sharma</h4>
+                <p>Speciality - Dentist</p>
+                <p>Mobile No. - 6290166817</p>
+                <p>Email ID - sandeep.sharma@gmail.com</p>
+                <a href="error.html">Book Now</a>
+            </div>
+            <div class="doctor_box">
+                <div class="image_box3"></div>
+                <h4>Dr. Manish Tiwary</h4>
+                <p>Speciality - Oncologist</p>
+                <p>Mobile No. - 6290166818</p>
+                <p>Email ID - manish.tiwary@gmail.com</p>
+                <a href="error.html">Book Now</a>
+            </div>
+            <div class="doctor_box">
+                <div class="image_box4"></div>
+                <h4>Dr. Anjali Mishra</h4>
+                <p>Speciality - Cardiology</p>
+                <p>Mobile No. - 6290166815</p>
+                <p>Email ID - anjali.mishra@gmail.com</p>
+                <a href="error.html">Book Now</a>
+            </div>
+
+
+        </div>
+        
+    <footer class="bottom_bar">
+        <p>&copy; 2024 Cure Plus. All rights reserved.</p>
+    </footer>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\doctor_panel.css">
+    <title>Doctor Panel</title>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\my-image3.png" alt="">
+        </div>
+        <div class="welcome">
+            <h1 id="welcome">PATIENT ADMISSION</h1>
+        </div>
+        <div class="delhi_logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\delhilogo-removebg-preview.png" alt="">
+        </div>
+    </div>
+        <div class="taskbar">
+            <a id="about_us" href="home.html">Home</a>
+            <p id="bar">|</p>
+            <a id="our_client" href="OPD.html">OPD Booking</a>
+            <p id="bar">|</p>
+            <a id="our_service" href="admission.html">Patient Admission</a>
+            <p id="bar">|</p>
+            <a id="service_req" href="bed_availability.html">Bed Availability</a>
+            <p id="bar">|</p>
+            <a id="contact_us" href="inventory.html">Inventory</a>
+            <p id="bar">|</p>
+            <a id="login" href="index.html">Logout</a>
+        </div>
+        <div class="inner">
+            <div class="basic_details">
+                Hospital Name - Apollo Gleneagles &emsp;
+                MR No. - <input type="number" placeholder="Enter">
+                Health Card No. - <input type="number" placeholder="Enter">
+                Admission No. - <input type="number" placeholder="Enter"> <br><br>
+                Patient Name - <input type="text" placeholder="Enter">
+                Admission Date & Time - <input type="datetime-local">
+                Discharged - <input type="checkbox">
+            </div><br>
+            <div class="switch">
+                <a href="admission.html"><button>Patient Details</button></a>
+                <a href="bed_booking.html"><button>Bed Booking</button></a>
+                <a href="admit_by.html"><button>Admitted By</button></a>
+                <a href="doctor_panel.html"><button>Doctor Pannel</button></a>
+                <a href="diagnosis.html"><button>Diagnosis Pannel</button></a>
+                <a href="payment_admission.html"><button>Payment</button></a>
+            </div>
+
+            <div class="title_bar">
+                <h4>DOCTOR PANEL</h4>
+            </div>
+    
+            <div class="doctor_panel">
+                        <table>
+                            <tr id="title">
+                                <th>SR No.</th>
+                                <th>Doctor Grade</th>
+                                <th>Doctor ID</th>
+                                <th>Doctor Name</th>
+                                <th>Doctor Mobile No.</th>
+                                <th>Doctor Email ID</th>
+                                <th>Last Visiting Date</th>
+                                <th>Next Visiting Date</th>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <th><select>
+                                    <option>Senior</option>
+                                    <option>Junior</option>
+                                    <option>Assistant</option>
+                                    <option>Nurse</option>
+                                </select></th>
+                                <th>123456</th>
+                                <th>Mohan Sharma</th>
+                                <th>6290166815</th>
+                                <th>mohan.sharma@gmail.com</th>
+                                <th>07-09-2024</th>
+                                <th>11-09-2024</th>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <th><select>
+                                    <option>Senior</option>
+                                    <option>Junior</option>
+                                    <option>Assistant</option>
+                                    <option>Nurse</option>
+                                </select></th>
+                                <th>123457</th>
+                                <th>Manoj Kumar</th>
+                                <th>6290166816</th>
+                                <th>manoj.kumar@gmail.com</th>
+                                <th>05-09-2024</th>
+                                <th>09-09-2024</th>
+                            </tr>
+                        </table>
+            </div>
+            <div class="end_switch">
+                <button>Add Doctor</button>
+                <button>Add Appointment</button>
+                <button>Clear</button>
+                <button>Undo</button>
+                <button>Save</button>
+                <button>Submit</button>
+            </div>
+            
+        </div>
+
+
+    <footer class="bottom_bar">
+        <p>&copy; 2024 Cure Plus. All rights reserved.</p>
+    </footer>

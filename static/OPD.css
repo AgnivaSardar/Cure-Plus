@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head_bar{
+    height: 12vh;
+    width: 100vw;
+    background: linear-gradient(to right, #058789, #063b63);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.345);
+    display: flex;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+.delhi_logo img{
+    height: 170px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.taskbar{
+    background: linear-gradient(to right, #058789, #063b63);
+    height: 9vh;
+    width: 67vw;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.334);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.welcome{
+    margin-inline: 370px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.taskbar a{
+    margin-inline: 30px;
+    margin-bottom: 6px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+/* .bottom_bar{
+    background: linear-gradient(to right, #058789, #063b63);
+    height: 7vh;
+    width: 100vw;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 485px;
+} */
+
+.bottom_bar{
+    background: linear-gradient(to right, #058789, #063b63);
+    text-align: center;
+    padding: 0.6em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.doctor_search{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.doctor_search select{
+    margin-inline: 10px;
+    border-radius: 5px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.doctor_box{
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.716);
+    margin-inline: 30px;
+}
+.doctor_box{
+    display: block;
+    justify-content: center;
+}
+.image_box1{
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background-image: url("doc5.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.image_box2{
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background-image: url("doc2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.image_box3{
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background-image: url("doc3.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.image_box4{
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background-image: url("doc4.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.doctor_box p,a,h4{
+    margin-top: 10px;
+    margin-left: 30px;
+}

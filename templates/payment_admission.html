@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\payment_admission.css">
+    <title>Payment</title>
+</head>
+<body>
+    <div class="head_bar">
+        <div class="logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\my-image3.png" alt="">
+        </div>
+        <div class="welcome">
+            <h1 id="welcome">PATIENT ADMISSION</h1>
+        </div>
+        <div class="delhi_logo">
+            <img src="C:\Personal\VIT\Smart India Hackathon\Final_Project_Cure_Plus\static\delhilogo-removebg-preview.png" alt="">
+        </div>
+    </div>
+        <div class="taskbar">
+            <a id="about_us" href="home.html">Home</a>
+            <p id="bar">|</p>
+            <a id="our_client" href="OPD.html">OPD Booking</a>
+            <p id="bar">|</p>
+            <a id="our_service" href="admission.html">Patient Admission</a>
+            <p id="bar">|</p>
+            <a id="service_req" href="bed_availability.html">Bed Availability</a>
+            <p id="bar">|</p>
+            <a id="contact_us" href="inventory.html">Inventory</a>
+            <p id="bar">|</p>
+            <a id="login" href="index.html">Logout</a>
+        </div>
+        <div class="inner">
+            <div class="basic_details">
+                Hospital Name - Apollo Gleneagles &emsp;
+                MR No. - <input type="number" placeholder="Enter">
+                Health Card No. - <input type="number" placeholder="Enter">
+                Admission No. - <input type="number" placeholder="Enter"> <br><br>
+                Patient Name - <input type="text" placeholder="Enter">
+                Admission Date & Time - <input type="datetime-local">
+                Discharged - <input type="checkbox">
+            </div><br>
+            <div class="switch">
+                <a href="admission.html"><button>Patient Details</button></a>
+                <a href="bed_booking.html"><button>Bed Booking</button></a>
+                <a href="admit_by.html"><button>Admitted By</button></a>
+                <a href="doctor_panel.html"><button>Doctor Pannel</button></a>
+                <a href="diagnosis.html"><button>Diagnosis Pannel</button></a>
+                <a href="payment_admission.html"><button>Payment</button></a>
+            </div>
+
+            <div class="title_bar">
+                <h4>PAYMENT</h4>
+            </div>
+            <div class="payment_top">
+                Admission No. - <input type="number">
+                Invoice No. - <input type="number">
+                Due Clearance Date - <input type="date">    
+            </div>
+
+            <div class="payment_admission">
+                    <div class="payment_admission_inner">
+                        MR No. - <input type="number">
+                        Receipt No. - <input type="number">
+                        Patient Name - <input type="text">
+                        <br><br>
+                        Payment Mode - <select>
+                            <option>Credit/Debit Card</option>
+                            <option>Net Banking</option>
+                            <option>UPI/Online</option>
+                            <option>Cheque</option>
+                            <option>Cash</option>
+                        </select>
+                        Admission Date - <input type="date">
+                        Discharge Date - <input type="date">
+                        <br><br>
+                        Bed Category - <select>
+                            <option>A - AC Double Bed</option>
+                            <option>A - Luxury Cabin</option>
+                            <option>A - Day Care</option>
+                            <option>A - Deluxe AC</option>
+                            <option>A - General Female</option>
+                            <option>A - General Male</option>
+                            <option>Deluxe Non-AC</option>
+                            <option>Female Ward</option>
+                            <option>Female - Day Care AC</option>
+                            <option>Female Isolation</option>
+                            <option>Female Ward Non-AC</option>
+                            <option>Male Ward</option>
+                            <option>Male Ward Non-AC</option>
+                            <option>Male Isolation</option>
+                            <option>Luxury Cabin Non-AC</option>
+                            <option>Emergency Beds</option>
+                        </select>
+                        Bed No. - <input type="number">
+                        Days - <input type="number">
+                        Bed Cost - <input type="number">
+                        <br><br>
+                        Total Test Cost - <input type="number">
+                        Total Surgery Cost - <input type="number">
+                        Total Medicine Cost - <input type="number">
+                        <br><br>
+                        Doctor Name - <input type="text">
+                        Doctor Service Cost - <input type="number">
+                        <br><br>
+                        Transaction Code - <input type="text">
+                        Transaction Ref. ID - <input type="text">
+                        <br><br>
+                        Mediclaim - <input type="checkbox">
+                        Mediclaim Balance - <input type="text">
+                        Health Card Balance - <input type="number">
+                        <br><br>
+                        Total Amount - <input type="number">
+                        Total Discount - <input type="number">
+                        Total Amount to be paid - <input type="number">
+                    </div>
+            </div>
+            <div class="end_switch">
+                <button>Clear</button>
+                <button>Undo</button>
+                <button>Save</button>
+                <button>Pay</button>
+            </div>
+            
+        </div>
+
+
+    <footer class="bottom_bar">
+        <p>&copy; 2024 Cure Plus. All rights reserved.</p>
+    </footer>

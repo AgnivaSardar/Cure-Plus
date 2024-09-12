@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head_bar{
+    height: 12vh;
+    width: 100%;
+    background: linear-gradient(to right, #058789, #063b63);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.345);
+    display: flex;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+.delhi_logo img{
+    height: 170px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.taskbar{
+    background: linear-gradient(to right, #058789, #063b63);
+    height: 9vh;
+    width: 67vw;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.334);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.welcome{
+    margin-inline: 335px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.taskbar a{
+    margin-inline: 30px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+/* .bottom_bar{
+    background: linear-gradient(to right, #058789, #063b63);
+    height: 7vh;
+    width: 100vw;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 485px;
+} */
+
+.bottom_bar{
+    background: linear-gradient(to right, #058789, #063b63);
+    text-align: center;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.search_bar{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.search_bar input,button,select{
+    margin-inline: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.search_bar button:hover{
+    background-color: #058789;
+    color: aliceblue;
+    transition: 0.23s;
+}
+table, th, td {
+    /* margin-left: 5vw; */
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 7px;
+    width: 98vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #title{
+    background-color: #058789;
+}

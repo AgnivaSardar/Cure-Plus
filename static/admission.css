@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head_bar{
+    height: 12vh;
+    width: 100%;
+    background: linear-gradient(to right, #058789, #063b63);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.345);
+    display: flex;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+.delhi_logo img{
+    height: 170px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.taskbar{
+    background: linear-gradient(to right, #058789, #063b63);
+    height: 9vh;
+    width: 67vw;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.334);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.welcome{
+    margin-inline: 314px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.taskbar a{
+    margin-inline: 30px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+/* .bottom_bar{
+    background: linear-gradient(to right, #058789, #063b63);
+    height: 7vh;
+    width: 100vw;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 485px;
+} */
+
+.bottom_bar{
+    background: linear-gradient(to right, #058789, #063b63);
+    text-align: center;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.basic_details{
+    margin-top: 30px;
+
+}
+.basic_details p,text,input{
+    margin-inline: 10px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.switch button{
+    margin-top: 10px;
+    margin-inline: 10px;
+
+}
+.switch button:hover{
+    background-color: #058789;
+    color: aliceblue;
+    transition: 0.30s;
+}
+
+.title_bar{
+    margin-top: 20px;
+    width: 100%;
+    background: linear-gradient(to right, #058789, #063b63);
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient_details{
+    background-color: white;
+    height: 50vh;
+    width: 70vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end_switch{
+    margin-bottom: 10px;
+}
+.end_switch button{
+    font-size: large;
+    margin-inline: 10px;
+}
+.with_pic{
+    display: flex;
+    justify-content: center;
+}
+.with_pic img{
+    height: 150px;
+    margin-left: 20px;
+}
+.pic p{
+    margin-left: 58px;
+    margin-bottom: 8px;
+}
